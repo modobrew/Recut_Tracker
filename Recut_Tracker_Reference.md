@@ -11,18 +11,23 @@
 /Users/modobrew/Documents/Claude-Projects-2026/Recut_Tracker/
 ```
 
-### Current Project Status: MVP COMPLETE (Feb 2026)
+### Current Project Status: DEPLOYED (Feb 2026)
+- **Live App:** https://recut-tracker-dashboard.streamlit.app
+- **GitHub:** https://github.com/modobrew/Recut_Tracker
+
+Features complete:
 - Data structure analyzed and documented
 - Roles identified (5 total)
-- Error code mappings established
+- Error code mappings established (7 Error Source categories)
 - All 5 role specifications complete:
   - Cutting Manager (A) - cutting errors, recuts by material/SKU
   - Sewing Manager (B) - repairs, SMO performance, detection location
-  - Production Manager (C) - holistic view, department breakdown
+  - Production Manager (C) - holistic view, Error Source breakdown
   - QC Manager (D) - detection effectiveness (Sewing vs QC)
   - Operations Director (E) - strategic view, trends, investment priorities
 - Data loader built and tested
 - Streamlit dashboard built with all 5 role views
+- Deployed to Streamlit Community Cloud
 
 ### To Run Locally
 ```bash
@@ -756,5 +761,6 @@ Generate 3-5 bullets using these rules (show only bullets that trigger):
 | 2026-02-05 | "Caught at Sewing vs QC" refers to where repairs were DISCOVERED, not fails |
 | 2026-02-05 | Added Top 5 Primary Error Types callout for Operations Director view |
 | 2026-02-05 | Baseline error distribution: Sewing Operator Error 45.7%, Other 21.7%, Other Machine Error 13.0%, Material Defect 7.8%, Cutting Operator Error 5.9%, Sewing Machine Error 2.8%, Cutting Machine Error 2.7% |
+| 2026-02-05 | Deployed to Streamlit Community Cloud: https://recut-tracker-dashboard.streamlit.app |
 
 ---
