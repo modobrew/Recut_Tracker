@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+
+# Data files (keep out of repo - users upload their own)
+*.xlsm
+*.xlsx
+
+# Reference docs from other projects
+ONE_Tracker_Reference.md
+Roles.md
+
+# OS
+.DS_Store
+Thumbs.db
